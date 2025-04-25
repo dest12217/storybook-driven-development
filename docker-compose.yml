@@ -1,0 +1,13 @@
+services:
+  storybook:
+    tty: true
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '6060:6060'
+    volumes:
+      - .:/app
+      - /code/node_modules
+    working_dir: /app
+    command: npm run storybook
