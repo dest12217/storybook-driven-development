@@ -1,0 +1,33 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`InputFieldRequired > Snapshot > Snapshot: Invalid 1`] = `
+<DocumentFragment>
+  <label
+    class="element-text-label"
+  >
+    label [Required]
+  </label>
+  <input
+    class="element-input-invalid"
+  />
+  <p
+    aria-live="assertive"
+    class="element-text-validation-state"
+  >
+    This field is required
+  </p>
+</DocumentFragment>
+`;
+
+exports[`InputFieldRequired > Snapshot > Snapshot: Valid 1`] = `
+<DocumentFragment>
+  <label
+    class="element-text-label"
+  >
+    label [Required]
+  </label>
+  <input
+    class="element-input"
+  />
+</DocumentFragment>
+`;
