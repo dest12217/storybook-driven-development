@@ -6,6 +6,7 @@ services:
       dockerfile: Dockerfile
     ports:
       - '6060:6060'
+      - '63315:63315'
     volumes:
       - .:/app
       - /code/node_modules

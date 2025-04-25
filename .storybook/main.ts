@@ -23,6 +23,12 @@ const config: StorybookConfig = {
       };
     }
 
+    config.server = {
+      ...config.server,
+      host: '0.0.0.0',
+      port: 63315,
+    };
+
     return config;
   }
 };

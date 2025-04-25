@@ -12,7 +12,7 @@ export default defineWorkspace([
       include: [
         'src/stories/**/*.test.{ts,tsx}'
       ],
-      setupFiles: ['.storybook/vitest.setup.js'],
+      setupFiles: ['.storybook/vitest.setup.ts'],
     },
   },
   {
@@ -36,7 +36,7 @@ export default defineWorkspace([
         ],
         provider: 'playwright'
       },
-      setupFiles: ['.storybook/vitest.setup.js'],
+      setupFiles: ['.storybook/vitest.setup.ts'],
     },
   }
 ]);

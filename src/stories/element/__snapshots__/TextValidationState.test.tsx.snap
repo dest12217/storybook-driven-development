@@ -1,0 +1,10 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`TextValidationState > Snapshot 1`] = `
+<DocumentFragment>
+  <p
+    aria-live="assertive"
+    class="element-text-validation-state"
+  />
+</DocumentFragment>
+`;
